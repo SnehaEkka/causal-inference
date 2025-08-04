@@ -1,30 +1,28 @@
 # Causal Inference
 
-This repository contains hands-on exercises exploring the fundamentals of causal inference — including treatment effect estimation, selection bias, matching methods, and regression-based adjustments. These notebooks simulate real-world observational settings where identifying true cause-and-effect relationships is key to making informed business decisions.
+This repository offers hands-on exercises that delve into the core principles and methods of causal inference—covering treatment effect estimation, confounding and selection bias, matching techniques, and regression-based adjustments. The notebooks simulate realistic observational scenarios where uncovering true cause-and-effect relationships is essential for confident, data-driven business decisions.
 
-As someone working at the intersection of analytics and consulting, I’ve used this series to strengthen my ability to ask the right causal questions, implement appropriate statistical techniques, and communicate findings in business terms. Each method is tested, explained, and evaluated using both visual and statistical tools.
+Drawing from experience at the crossroads of analytics and consulting, this collection strengthens my ability to formulate precise causal questions, implement robust statistical approaches, and translate findings into clear, actionable business insights. Each method is rigorously applied, visually explored, and statistically validated to highlight its strengths and limitations.
 
 ## 🔧 Tools Used
-- Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-- Causal Inference Libraries: `DoWhy`, `EconML`
-- Jupyter Notebook for modeling and exploration
+- Python (pandas, NumPy, matplotlib, seaborn, scikit-learn)
+- Causal inference frameworks and libraries (e.g., DoWhy, EconML — planned extensions)
+- Jupyter Notebook for interactive modeling and exploration
 
-## 🧪 What’s Covered
+## 🧪 Topics Covered
 
-| Topic | Concepts Explored |
-|-------|-------------------|
-| **Potential Outcomes & ATE** | Introduction to causal frameworks and estimating Average Treatment Effects |
-| **Selection Bias & Confounding** | Understanding how omitted variable bias and confounders affect estimation |
-| **Matching Methods** | Propensity score matching and nearest neighbor methods |
-| **Regression Adjustment** | Using OLS and multivariate regression to control for covariates |
-| **Evaluation & Interpretation** | Visual and numerical interpretation of causal results and assumptions |
+| Topic                        | Concepts Explored                                               |
+|------------------------------|----------------------------------------------------------------|
+| **Potential Outcomes & ATE**  | Foundations of causal frameworks and estimating Average Treatment Effects |
+| **Selection Bias & Confounding** | Identifying and addressing bias from confounders and omitted variables |
+| **Matching Methods**          | Propensity score and nearest neighbor matching techniques       |
+| **Regression Adjustment**     | Using OLS and multivariate models to control for confounders    |
+| **Evaluation & Interpretation** | Visualizations and diagnostics to assess causal assumptions and interpret results |
 
 ## 💡 Why This Matters
 
-In business settings, understanding *why* something happened is often more important than knowing *what* happened. This project reflects my commitment to going beyond correlation—focusing instead on uncovering true causal relationships that drive better decision-making.
+In business analytics, *understanding why* something occurs is often more critical than *what* happens. This project embodies a commitment to causal rigor—moving beyond correlation to uncover actionable insights that reduce uncertainty and guide strategic decisions.
 
-Whether applied to marketing lift analysis, policy evaluation, or product changes, causal inference methods are powerful tools that sharpen strategic thinking and reduce decision risk. These exercises help demonstrate how I approach **analytical rigor, stakeholder trust, and storytelling grounded in evidence** — all of which are crucial in both analytics consulting and data science roles.
+Applicable to marketing impact analysis, policy assessment, and product experimentation, causal inference sharpens analytical rigor, builds stakeholder trust, and enhances storytelling grounded in evidence. These exercises showcase my approach to integrating statistical precision with business acumen for meaningful impact.
 
----
-
-🧭 Built with curiosity and care. Let’s connect if you’re working on or learning about causal methods in business contexts!
+🧭 Crafted with curiosity and care. If you’re exploring causal methods or driving data-driven change in business, let’s connect!
