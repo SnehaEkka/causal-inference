@@ -2,14 +2,7 @@
 
 ## Overview
 
-This exercise applies statistical analysis and causal inference to a real-world platform experiment at Uber, focusing on the launch and field testing of Express POOL versus the classic Uber POOL service. You will use an authentic operational dataset from Uber's 2018 Boston experiment to investigate the business and behavioral tradeoffs influenced by wait times in a ride-sharing market.
-
-## Case Summary (Relevant to This Exercise)
-
-“Innovation at Uber: The Launch of Express POOL” (HBS) profiles Uber’s experimental rollout of Express POOL—a service designed to improve ride-matching efficiency by asking riders to (a) walk a short distance to set pick-up/drop-off points, and (b) wait briefly before being matched for a cheaper ride. 
-
-Uber piloted Express POOL in Boston and San Francisco and then ran a structured "switchback" experiment in Boston, alternately setting the wait time to 2 minutes (control) or 5 minutes (treatment).  
-Management and data scientists weighed the trade-offs: **Longer waits reduced costs but increased rider cancellations**. Balancing customer experience, cost efficiency, and data integrity, Uber used randomized experimentation and causal measurement to guide these critical platform decisions.
+Based on the Harvard Business School case "Innovation at Uber: The Launch of Express POOL" (2018), this exercise applies statistical analysis and causal inference to a real-world platform experiment at Uber, focusing on the launch and field testing of Express POOL versus the classic Uber POOL service. It uses an authentic operational dataset from Uber's 2018 Boston experiment to investigate the business and behavioral tradeoffs influenced by wait times in a ride-sharing market.
 
 ## Tools Used
 - **Python 3.x**
@@ -19,6 +12,13 @@ Management and data scientists weighed the trade-offs: **Longer waits reduced co
 - **statsmodels/pyfixest** (regression & causal inference)
 - **matplotlib**, **seaborn**, **plotnine** (visualization)
 - **stargazer** (regression table formatting)
+
+## Uber POOL Case Summary (Relevant to This Exercise)
+
+“Innovation at Uber: The Launch of Express POOL” (HBS) profiles Uber’s experimental rollout of Express POOL, a service designed to improve ride-matching efficiency by asking riders to (a) walk a short distance to set pick-up/drop-off points, and (b) wait briefly before being matched for a cheaper ride. 
+
+Uber piloted Express POOL in Boston and San Francisco and then ran a structured "switchback" experiment in Boston, alternately setting the wait time to 2 minutes (control) or 5 minutes (treatment).  
+Management and data scientists weighed the trade-offs: **Longer waits reduced costs but increased rider cancellations**. Balancing customer experience, cost efficiency, and data integrity, Uber used randomized experimentation and causal measurement to guide these critical platform decisions.
 
 ## Business/Platform Objective
 
@@ -105,5 +105,3 @@ This exercise helps develop expertise in using data engineering and regression a
 - Completed: Spring 2024
 - Course: Business Experimentation & Causal Methods (BA830), Boston University MSBA
 - This exercise demonstrates platform experimentation, causal analysis, and data-driven product strategy in a real-world tech context.
-
-*Based on Harvard Business School case "Innovation at Uber: The Launch of Express POOL" (2018).*
