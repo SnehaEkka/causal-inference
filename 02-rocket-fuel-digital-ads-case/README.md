@@ -14,7 +14,7 @@ This exercise investigates causal inference through a real-world, large-scale di
 - **pingouin** (power analysis)
 
 ## Rocket Fuel Digital Advertising Case (Summary)
-This exercise analyzes a real-world programmatic digital advertising campaign executed for TaskaBella, a luxury handbag brand, by Rocket Fuel Inc., a data-driven marketing platform. The campaign's objective was to measure the causal impact of targeted ads on consumer purchase conversions using randomized controlled experiment methods involving treatment (ad exposed) and control (public service announcement) groups.
+This exercise analyzes a real-world programmatic digital advertising campaign executed for TaskaBella, a luxury handbag brand, by Rocket Fuel Inc., a data-driven marketing platform. The campaign's objective was to measure the causal impact of targeted ads on consumer purchase conversions using randomized controlled experiment methods involving treatment (ad-exposed) and control (public service announcement) groups.
 
 Key features of the case include:
 - Use of artificial intelligence and machine learning by Rocket Fuel to optimize ad delivery in real time.
@@ -22,8 +22,6 @@ Key features of the case include:
 - Detailed user-level data including conversion outcomes, total impressions, and timing characteristics of ad exposures.
 - Business metrics such as campaign profitability, ROI, impression-response relationships, and temporal variation in ad effectiveness.
 - A critical look at experimental design tradeoffs, including the size of control groups and implications for statistical power.
-
-*Note: This case study was provided exclusively for academic use under a restricted license from the University of California at Berkeley Haas School of Business and cannot be redistributed. Interested users should obtain the case directly from official academic sources or course materials.*
 
 ## Business Objective
 
