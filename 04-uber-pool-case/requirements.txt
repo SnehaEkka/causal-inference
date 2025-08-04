@@ -1,0 +1,11 @@
+ipywidgets==7.7.1
+matplotlib==3.7.0
+numpy==1.24.2
+pandas==1.5.3
+seaborn==0.13.0
+pyfixest==0.16.0
+statsmodels==0.14.1
+stargazer==0.0.6
+plotnine==0.12.4
+lets_plot==4.2.0
+pingouin==0.5.4
