@@ -6,10 +6,6 @@
 
 This exercise uses regression analysis to explore results from a pioneering social media field experiment, inspired by the paper ["Tweetment Effects on the Tweeted: Experimentally Reducing Racist Harassment"](https://link.springer.com/article/10.1007/s11109-016-9373-5) by Kevin Munger. The study investigates whether targeted, randomized responses to racist tweets can affect future online behavior, with outcomes measured using changes in users’ subsequent tweet content.
 
-### Paper Summary (Relevant to This Exercise)
-
-Munger (2017) conducted a large-scale field experiment on Twitter to understand whether confronting accounts posting racist content can reduce subsequent racist expression. Accounts identified as posting racist tweets were randomly assigned to receive a reply from a newly created account (with varying characteristics—number of followers and racial in-group/out-group status), or to a control group receiving no reply. The responses were standardized messages calling out the racist content. Behavior following the intervention was tracked and quantified ("racism scores") using text analysis over one and two months. The paper provides a unique example of using randomized digital interventions and regression to study social and behavioral change online, which this exercise closely mirrors.
-
 ## Tools Used
 - **Python 3.x**
 - **Jupyter/IPython Notebook**
@@ -17,6 +13,10 @@ Munger (2017) conducted a large-scale field experiment on Twitter to understand 
 - **NumPy** (numerical/statistical computation)
 - **statsmodels** or **scikit-learn** (regression analysis)
 - **matplotlib/seaborn** (data visualization)
+
+## Tweetments Effect Paper Summary (Relevant to This Exercise)
+
+Munger (2017) conducted a large-scale field experiment on Twitter to understand whether confronting accounts posting racist content can reduce subsequent racist expression. Accounts identified as posting racist tweets were randomly assigned to receive a reply from a newly created account (with varying characteristics—number of followers and racial in-group/out-group status), or to a control group receiving no reply. The responses were standardized messages calling out the racist content. Behavior following the intervention was tracked and quantified ("racism scores") using text analysis over one and two months. The paper provides a unique example of using randomized digital interventions and regression to study social and behavioral change online, which closely mirrors this exercise.
 
 ## Business/Social Science Objective
 
